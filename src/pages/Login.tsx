@@ -51,7 +51,7 @@ const Login = () => {
               className="bg-secondary"
             />
           </div>
-          <Button type="submit" className="w-full">
+          <Button type="submit" className="w-full bg-emerald-400 hover:bg-emerald-500">
             <LogIn className="mr-2 h-4 w-4" />
             Sign In
           </Button>
