@@ -27,7 +27,12 @@ const Login = () => {
   return (
     <div className="min-h-screen w-full flex items-center justify-center bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-800 via-gray-900 to-black animate-in">
       <div className="glass p-8 rounded-lg w-full max-w-md space-y-6">
-        <div className="text-center space-y-2">
+        <div className="flex flex-col items-center space-y-4">
+          <img 
+            src="/lovable-uploads/8fa4a74f-8b7a-4a94-afff-32910d1fc991.png" 
+            alt="SRS Advertising Logo" 
+            className="h-16 object-contain mb-4"
+          />
           <h1 className="text-2xl font-bold">Welcome Back</h1>
           <p className="text-muted-foreground">Sign in to your account</p>
         </div>
