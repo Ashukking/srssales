@@ -25,7 +25,7 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-background animate-in">
+    <div className="min-h-screen w-full flex items-center justify-center bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-800 via-gray-900 to-black animate-in">
       <div className="glass p-8 rounded-lg w-full max-w-md space-y-6">
         <div className="text-center space-y-2">
           <h1 className="text-2xl font-bold">Welcome Back</h1>
@@ -39,7 +39,7 @@ const Login = () => {
               placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="bg-secondary"
+              className="bg-secondary/50"
             />
           </div>
           <div className="space-y-2">
@@ -48,7 +48,7 @@ const Login = () => {
               placeholder="Password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="bg-secondary"
+              className="bg-secondary/50"
             />
           </div>
           <Button type="submit" className="w-full bg-emerald-400 hover:bg-emerald-500">
